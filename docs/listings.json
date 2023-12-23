@@ -1,6 +1,13 @@
 [
   {
     "listing": "/posts.html",
+    "items": [
+      "/posts/2023-12-23_another-test-post/index.html",
+      "/posts/2023-12-22-my-blog-post/index.html"
+    ]
+  },
+  {
+    "listing": "/art.html",
     "items": []
   }
 ]

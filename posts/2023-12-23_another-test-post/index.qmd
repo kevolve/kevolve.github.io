@@ -1,0 +1,53 @@
+---
+title: '{{< animate fadeIn "Test blog post" delay=0s duration=faster >}}'
+description: "This is a test blog post."
+title-block-banner: banner.jpg
+title-block-banner-color: black
+author:
+  - name: Kevin R. Bairos-Novak
+    url: https://ecolology.github.io/
+    orcid: 0000-0002-0152-1452
+    affiliation: Reef Restoration and Adaptation Program & Centre for Biodiversity and Conservation Science
+date: last-modified
+date-format: YYYY-MMM-DD
+# bibliography: references.bib
+categories: [starting out] # self-defined categories
+citation: 
+  url: https://ecolology.github.io/posts/2023-12-22-my-blog-post/ 
+# image: piratekevin.jpg # can also use .preview-image tag, as I do below!
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor_options: 
+  chunk_output_type: console
+filters:
+  - webr
+---
+
+{{< animate bounce "Some text" delay=0s duration=faster duration=1000ms >}}
+
+{{< animate bounce "Some more text" delay=1s duration=faster >}}
+
+circle-flags:ca
+game-icons:bagpipes
+lucide:drum
+mdi:bike-fast
+game-icons:coral
+fluent-emoji-flat:coral
+fluent-emoji-high-contrast:coral
+lucide:squirrel
+fluent-emoji-flat:frog
+game-icons:tadpole
+fa-solid:fish
+noto-v1:fish
+fxemoji:fish
+emojione:tropical-fish
+mdi:bird
+game-icons:seagull
+
+
+
+::: {.animate__animated .animate__fadeIn}
+THIS IS A TEST
+:::
+
+
+

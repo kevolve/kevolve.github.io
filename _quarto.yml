@@ -8,13 +8,26 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - research.qmd
-      - posts.qmd # add your posts.qmd file to your navbar!
-    tools:
-      - icon: twitter
-        href: https://twitter.com/
-      - icon: github
-        href: https://github.com/ecolology/kevin-r-bairos-novak
+        # text: "{{< animate fadeIn 'Home' delay=1s>}}"
+      - href: research.qmd
+        text: Research
+        # text: "{{< animate fadeIn 'Research' >}}"
+      - href: posts.qmd
+        text: Blog
+        # text: "{{< animate fadeIn 'Blog posts' >}}" # add your posts.qmd file to your navbar!
+      - href: art.qmd
+        text: Pour paintings
+        # text: "{{< animate fadeIn 'Paintings' >}}" # add your posts.qmd file to your navbar!
+    right:
+      - text: "{{< iconify fa6-brands researchgate >}}"
+        href: "https://www.researchgate.net/profile/Kevin-Bairos-Novak/"
+      # - icon: twitter
+      #   href: "https://twitter.com/"
+      
+      - icon: "{{< iconify fa6-brands github >}}"
+        href: "https://github.com/ecolology/kevin-r-bairos-novak"
+      # - text: "{{< iconify fa6-brands linkedin >}}"
+      #   href: "https://www.linkedin.com/in/mickaelcanouil"
   page-footer:
     # right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Kevin R. Bairos-Novak, 2023"
@@ -24,8 +37,8 @@ format:
     theme: minty
     toc: true
 
-filters:
-  - webr
+# filters:
+#   - webr
 
 editor: source
 

@@ -1,19 +1,21 @@
 ---
 title: "Template blog post"
 description: "This is a test blog post."
+title-block-banner: banner.jpg
+title-block-banner-color: black
 author:
   - name: Kevin R. Bairos-Novak
     url: https://ecolology.github.io/
     orcid: 0000-0002-0152-1452
     affiliation: Reef Restoration and Adaptation Program & Centre for Biodiversity and Conservation Science
-date: 2022-10-24
-date-modified: last-modified
+date: last-modified
+date-format: YYYY-MMM-DD
 # bibliography: references.bib
 categories: [starting out] # self-defined categories
 citation: 
   url: https://ecolology.github.io/posts/2023-12-22-my-blog-post/ 
-image: piratekevin.jpg
-draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+# image: piratekevin.jpg # can also use .preview-image tag, as I do below!
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 editor_options: 
   chunk_output_type: console
 filters:
@@ -24,7 +26,7 @@ filters:
 ## Section 1
 
 This serves as the first section of my blog. Here's a photo:\
-[my photo](piratekevin.jpg){alt.text="hello world"}
+![my photo](piratekevin.jpg){.preview-image alt.text="hello world" size="300"}
 
 ## Section 2
 

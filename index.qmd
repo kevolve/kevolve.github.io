@@ -1,20 +1,12 @@
 ---
-# title: "About Me"
-# about:
-#   id: me
-  # template: trestles
-  # image-width: 10em
-  # image-shape: round
-  # image: img/headshot.jpg
+title: "{{< animate fadeIn 'About Me' >}}"
 ---
 
-::: {style="text-align: center"}
-# About Me
-:::
+::: {.animate__animated .animate__fadeIn .animate__faster}
 
 ::: {layout="[ 30, 70 ]"}
 ::: {#first-column}
-![](img/headshot.jpg){width="300"}
+![](img/headshot.jpg)
 :::
 
 ::: {#second-column column.width="70%"}
@@ -22,11 +14,16 @@ I serendipitously ended up on the path of a marine biologist studying corals of 
 
 The overarching question of my PhD was: \
 **Will coral evolution be able to keep pace with climate change?** \
-My results suggest that it is a mixed bag for different corals, with an increasingly pessimistic outlook for coral communities overall if we as humans fail to reduce our carbon emissions in the near future.<br></br>
+My results suggest that it is a mixed bag for different corals, with an increasingly pessimistic outlook for coral communities overall if we as humans fail to reduce our carbon emissions in the near future.
 :::
 :::
 
-**Main Research Interests:**
+:::
+
+---
+
+::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
+## Research Interests
 
 -   Eco-evolutionary dynamics of natural populations in response to climate change
 -   Mechanistic models of micro-evolutionary change in ***R***
@@ -39,6 +36,11 @@ My results suggest that it is a mixed bag for different corals, with an increasi
 
 If you are interested in collaborating on a project or seeking advice on statistical analysis, feel free to **contact me at: k.bairosnovak(at)uq.edu.au**
 
+:::
+
+::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-2s}
+---
+
 ## Academic Positions
 
 <div>
@@ -50,7 +52,7 @@ If you are interested in collaborating on a project or seeking advice on statist
 <!-- \ -->
 
 **Coral Eco-evolutionary Modeller** (2023 - 2024)\
-Post-doc, Riginos Lab, The University of Queensland\
+Post-doc, Cynthia Riginos Lab, The University of Queensland\
 Brisbane, Australia\
 
 </div>
@@ -72,3 +74,5 @@ University of Manitoba\
 Winnipeg, Canada\
 
 </div>
+
+:::

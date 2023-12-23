@@ -5,3 +5,5 @@ title: "Research"
 ## Coral Eco-evolutionary Modelling
 
 Will corals of the Great Barrier Reef evolve fast enough to keep pace with climate change? Using explicit models of population genetics and evolution, including the strong size-dependent demography of corals, my aim is to understand likely population evolutionary trajectories of corals in response to the increasing temperatures predicted by man-made climate change. Understanding rates of coral adaptation and potential trade-offs with other traits is key to better conserving scleractinian (hard) corals in an era of more frequent and intense mass coral bleaching events.
+
+---

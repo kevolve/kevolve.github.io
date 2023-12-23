@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Main Research Interests:\nIf you are interested in collaborating on a project or seeking advice on statistical analysis, feel free to contact me at: k.bairosnovak(at)uq.edu.au"
+    "text": "I serendipitously ended up on the path of a marine biologist studying corals of the Great Barrier Reef despite originating from the landlocked prairies of Canada. For the past five years, I have worked on understanding coral population responses to climate change using state-of-the-art eco-evolutionary models of coral thermal tolerance.\nThe overarching question of my PhD was:\nWill coral evolution be able to keep pace with climate change?\nMy results suggest that it is a mixed bag for different corals, with an increasingly pessimistic outlook for coral communities overall if we as humans fail to reduce our carbon emissions in the near future."
   },
   {
     "objectID": "index.html#education",
@@ -39,12 +39,61 @@
     "href": "index.html#academic-positions",
     "title": "About Me",
     "section": "Academic Positions",
-    "text": "Academic Positions\n\n\n\n\nCoral Eco-evolutionary Modeller (2023 - 2024)\nPost-doc, Riginos Lab, The University of Queensland\nBrisbane, Australia"
+    "text": "Academic Positions\n\n\n\n\nCoral Eco-evolutionary Modeller (2023 - 2024)\nPost-doc, Cynthia Riginos Lab, The University of Queensland\nBrisbane, Australia"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTest blog post\n\n\n\nstarting out\n\n\n\nThis is a test blog post.\n\n\n\nKevin R. Bairos-Novak, Kevin R. Bairos-Novak\n\n\nDec 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTemplate blog post\n\n\n\nstarting out\n\n\n\nThis is a test blog post.\n\n\n\nKevin R. Bairos-Novak, Kevin R. Bairos-Novak\n\n\nDec 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "About Me",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nEco-evolutionary dynamics of natural populations in response to climate change\nMechanistic models of micro-evolutionary change in R\nForward genetic simulations of evolution using SLiM\nCausal inference in statistics\nMeta-analysis and research synthesis\nBehavioural ecology and the evolution of animal communication systems\nImproving diversity, equity, and inclusion (DEI) in science\nImproving the openness, reliability, and transparency (ORT) of science\n\nIf you are interested in collaborating on a project or seeking advice on statistical analysis, feel free to contact me at: k.bairosnovak(at)uq.edu.au"
+  },
+  {
+    "objectID": "posts/2023-12-22-my-blog-post/index.html",
+    "href": "posts/2023-12-22-my-blog-post/index.html",
+    "title": "Template blog post",
+    "section": "",
+    "text": "This serves as the first section of my blog. Here’s a photo:"
+  },
+  {
+    "objectID": "posts/2023-12-22-my-blog-post/index.html#section-1",
+    "href": "posts/2023-12-22-my-blog-post/index.html#section-1",
+    "title": "Template blog post",
+    "section": "",
+    "text": "This serves as the first section of my blog. Here’s a photo:"
+  },
+  {
+    "objectID": "posts/2023-12-22-my-blog-post/index.html#section-2",
+    "href": "posts/2023-12-22-my-blog-post/index.html#section-2",
+    "title": "Template blog post",
+    "section": "Section 2",
+    "text": "Section 2\nThis is the second section1.\nSee this link for how to add a bibliography\nThis link is useful for setting up and customising page content!\n\nlibrary(leaflet)\n\nWarning: package 'leaflet' was built under R version 4.2.3\n\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")\n\n\n\n\n\n\nThis is a webr-enabled code cell in a Quarto HTML document.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "posts/2023-12-22-my-blog-post/index.html#footnotes",
+    "href": "posts/2023-12-22-my-blog-post/index.html#footnotes",
+    "title": "Template blog post",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is an example footnote!↩︎"
+  },
+  {
+    "objectID": "posts/2023-12-23_another-test-post/index.html",
+    "href": "posts/2023-12-23_another-test-post/index.html",
+    "title": "Test blog post",
+    "section": "",
+    "text": "Some text\nSome more text\ncircle-flags:ca game-icons:bagpipes lucide:drum mdi:bike-fast game-icons:coral fluent-emoji-flat:coral fluent-emoji-high-contrast:coral lucide:squirrel fluent-emoji-flat:frog game-icons:tadpole fa-solid:fish noto-v1:fish fxemoji:fish emojione:tropical-fish mdi:bird game-icons:seagull\n\nTHIS IS A TEST\n\n\n\n\nCitationBibTeX citation:@online{r. bairos-novak2023,\n  author = {R. Bairos-Novak, Kevin and R. Bairos-Novak, Kevin},\n  title = {\\{\\{\\textless{} Animate {fadeIn} “{Test} Blog Post” Delay=0s\n    Duration=faster \\textgreater\\}\\}},\n  date = {2023-12-23},\n  url = {https://ecolology.github.io/posts/2023-12-22-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nR. Bairos-Novak, Kevin, and Kevin R. Bairos-Novak. 2023. “{{&lt;\nAnimate fadeIn ‘Test Blog Post’ Delay=0s Duration=faster\n&gt;}}.” December 23, 2023. https://ecolology.github.io/posts/2023-12-22-my-blog-post/."
+  },
+  {
+    "objectID": "art.html",
+    "href": "art.html",
+    "title": "Pour Painting",
     "section": "",
     "text": "No matching items"
   }
