@@ -1,0 +1,57 @@
+---
+title: "Template blog post"
+description: "This is a test blog post."
+author:
+  - name: Kevin R. Bairos-Novak
+    url: https://ecolology.github.io/
+    orcid: 0000-0002-0152-1452
+    affiliation: Reef Restoration and Adaptation Program & Centre for Biodiversity and Conservation Science
+date: 2022-10-24
+date-modified: last-modified
+# bibliography: references.bib
+categories: [starting out] # self-defined categories
+citation: 
+  url: https://ecolology.github.io/posts/2023-12-22-my-blog-post/ 
+image: piratekevin.jpg
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+editor_options: 
+  chunk_output_type: console
+filters:
+  - webr
+---
+
+
+## Section 1
+
+This serves as the first section of my blog. Here's a photo:\
+[my photo](piratekevin.jpg){alt.text="hello world"}
+
+## Section 2
+
+This is the second section[^1].
+
+[^1]: This is an example footnote!
+
+See [this link](https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd) for how to add a bibliography
+
+[This link](https://quarto.org/docs/authoring/article-layout.html) is useful for setting up and customising page content!
+
+```{r}
+#| column: screen
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+```
+
+
+
+---
+
+This is a webr-enabled code cell in a Quarto HTML document.
+
+```{webr-r}
+fit = lm(mpg ~ am, data = mtcars)
+summary(fit)
+```
+

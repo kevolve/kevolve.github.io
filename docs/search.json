@@ -1,23 +1,51 @@
 [
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2"
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Will corals of the Great Barrier Reef evolve fast enough to keep pace with climate change? Using explicit models of population genetics and evolution, including the strong size-dependent demography of corals, my aim is to understand likely population evolutionary trajectories of corals in response to the increasing temperatures predicted by man-made climate change. Understanding rates of coral adaptation and potential trade-offs with other traits is key to better conserving scleractinian (hard) corals in an era of more frequent and intense mass coral bleaching events."
   },
   {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3"
+    "objectID": "research.html#coral-eco-evolutionary-modelling",
+    "href": "research.html#coral-eco-evolutionary-modelling",
+    "title": "Research",
+    "section": "",
+    "text": "Will corals of the Great Barrier Reef evolve fast enough to keep pace with climate change? Using explicit models of population genetics and evolution, including the strong size-dependent demography of corals, my aim is to understand likely population evolutionary trajectories of corals in response to the increasing temperatures predicted by man-made climate change. Understanding rates of coral adaptation and potential trade-offs with other traits is key to better conserving scleractinian (hard) corals in an era of more frequent and intense mass coral bleaching events."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Thanks for checking out my web site!"
+    "text": "If you are interested in collaborating on a project or seeking advice on statistical analysis, feel free to contact me."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Marine Biology (2019 - 2023)\nJames Cook University\nTownsville, Australia\n\nM.Sc. in Biology (2016 - 2018)\nUniversity of Saskatchewan\nSaskatoon, Canada\n\nB.Sc.(Hons.) in Biology (2010 - 2015)\nUniversity of Manitoba\nWinnipeg, Canada"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience\n\nQuantitative Evolutionary Ecologist (2024 - present)\nDiana Fisher Lab, The University of Queensland\n\nCoral Eco-evolutionary Modeller (2023 - 2024)\nRiginos Lab, The University of Queensland"
+  },
+  {
+    "objectID": "index.html#academic-positions",
+    "href": "index.html#academic-positions",
+    "title": "About Me",
+    "section": "Academic Positions",
+    "text": "Academic Positions\n\n\n\n\nCoral Eco-evolutionary Modeller (2023 - 2024)\nPost-doc, Riginos Lab, The University of Queensland\nBrisbane, Australia"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "No matching items"
   }
 ]

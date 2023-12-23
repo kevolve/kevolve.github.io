@@ -1,19 +1,72 @@
 ---
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
+# title: "About Me"
+# about:
+#   id: me
+  # template: trestles
+  # image-width: 10em
+  # image-shape: round
+  # image: img/headshot.jpg
 ---
 
-:::{#me}
+::: {style="text-align: center"}
+# About Me
+:::
 
-## Goals
+::: {layout="[ 50, 50 ]"}
+::: {column.width="30%"}
+![](img/headshot.jpg){.circular_image border-radius="50%" width="300"}
+:::
+
+::: {#second-column}
+I serendipitously ended up on the path of a marine biologist studying corals of the Great Barrier Reef despite originating from the landlocked prairies of Canada. For the past five years, I have worked on understanding coral population responses to climate change using state-of-the-art eco-evolutionary models of coral thermal tolerance.<br></br>
+
+The overarching question of my PhD was undoubtedly: Will coral evolution be able to keep pace with climate change? My answer is a mixed bag of pessimistic vs. optimistic outcomes for corals, depending on how quickly humanity reduces our carbon emissions in the future!<br></br>
+
+For more information, check out my Research tab!
+
+**Main Research Interests:**
+
+-   Eco-evolutionary dynamics of natural populations in response to climate change
+-   Mechanistic models of micro-evolutionary change in R
+-   Forward genetic simulations of evolution using SLiM
+-   Causal inference in statistics
+-   Meta-analysis and research synthesis
+-   Behavioural ecology and the evolution of animal communication systems
+-   Improving diversity, equity, and inclusion (DEI) in science
+-   Improving the openness, reliability, and transparency (ORT) of science
+:::
+:::
+
+If you are interested in collaborating on a project or seeking advice on statistical analysis, feel free to contact me.
+
+## Academic Positions
+
+<div>
+<!-- **Quantitative Evolutionary Ecologist** (2024 - present)\ -->
+<!-- Diana Fisher Lab, The University of Queensland\ -->
+<!-- \ -->
+**Coral Eco-evolutionary Modeller** (2023 - 2024)\
+Post-doc, Riginos Lab, The University of Queensland\
+Brisbane, Australia\
+</div>
 
 ## Education
 
-## Experience
+<div>
 
-:::
+**Ph.D. in Marine Biology** (2019 - 2023)\
+James Cook University\
+Townsville, Australia\
+\
+**M.Sc. in Biology** (2016 - 2018)\
+University of Saskatchewan\
+Saskatoon, Canada\
+\
+**B.Sc.(Hons.) in Biology** (2010 - 2015)\
+University of Manitoba\
+Winnipeg, Canada\
 
-Thanks for checking out my web site!
+</div>
+
+
+

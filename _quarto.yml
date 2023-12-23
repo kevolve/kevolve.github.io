@@ -3,25 +3,29 @@ project:
   output-dir: docs
   
 website:
-  title: "MY WEB SITE"
+  title: "Kevin R. Bairos-Novak"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - research.qmd
+      - posts.qmd # add your posts.qmd file to your navbar!
     tools:
       - icon: twitter
         href: https://twitter.com/
       - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+        href: https://github.com/ecolology/kevin-r-bairos-novak
   page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
+    # right: "Built with [Quarto](https://quarto.org/)"
+    left: "&copy; Kevin R. Bairos-Novak, 2023"
 
 format:
   html:
-    theme: cerulean
+    theme: minty
     toc: true
+
+filters:
+  - webr
 
 editor: source
 
