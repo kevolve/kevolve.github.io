@@ -8,16 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-        # text: "{{< animate fadeIn 'Home' delay=1s>}}"
+        # text: "{{< animate fadeInDown 'Home' delay=.5s >}}"
       - href: research.qmd
         text: Research
-        # text: "{{< animate fadeIn 'Research' >}}"
+        # text: "{{< animate fadeInDown 'Research' delay=1s >}}"
       - href: posts.qmd
         text: Blog
-        # text: "{{< animate fadeIn 'Blog posts' >}}" # add your posts.qmd file to your navbar!
+        # text: "{{< animate fadeInDown 'Blog posts' delay=2s >}}" # add your posts.qmd file to your navbar!
       - href: art.qmd
         text: Pour paintings
-        # text: "{{< animate fadeIn 'Paintings' >}}" # add your posts.qmd file to your navbar!
+        # text: "{{< animate fadeInDown 'Paintings' delay=3s >}}" # add your posts.qmd file to your navbar!
     right:
       - text: "{{< iconify fa6-brands researchgate >}}"
         href: "https://www.researchgate.net/profile/Kevin-Bairos-Novak/"

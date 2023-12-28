@@ -4,6 +4,47 @@ title: "Research"
 
 ## Coral Eco-evolutionary Modelling
 
-Will corals of the Great Barrier Reef evolve fast enough to keep pace with climate change? Using explicit models of population genetics and evolution, including the strong size-dependent demography of corals, my aim is to understand likely population evolutionary trajectories of corals in response to the increasing temperatures predicted by man-made climate change. Understanding rates of coral adaptation and potential trade-offs with other traits is key to better conserving scleractinian (hard) corals in an era of more frequent and intense mass coral bleaching events.
+
+<!-- ::: {layout="[ 30, 70 ]"} -->
+<!-- ::: {#first-column} -->
+![](img/coral.jpg)
+<!-- ::: -->
+
+<!-- ::: {#second-column column.width="70%"} -->
+
+Coral reefs are home to 25% of all marine biodiversity, yet cover only 0.07% of the Earth's surface. Despite their importance, reefs around the world have experienced unprecedented levels of thermal heat stress in the past decade due to man-made climate change, thus threatening their long-term survival. The central question is thus: Will corals of the Great Barrier Reef evolve fast enough to keep pace with climate change? 
+
+Using explicit models of population genetics and evolution, including the strong size-dependent demography of corals, my aim is to understand likely population evolutionary trajectories of corals in response to the increasing temperatures predicted by man-made climate change. Understanding rates of coral adaptation and potential trade-offs with other traits is key to better conserving scleractinian (hard) corals in an era of more frequent and intense mass coral bleaching events.
+
+Preliminary model results suggest that it is a mixed bag for different corals, with an increasingly pessimistic outlook for coral communities overall if we as humans fail to reduce our carbon emissions in the near future.
+<!-- ::: -->
+<!-- ::: -->
+
+## Disturbance cues in tadpoles and minnows
+
+::: {layout="[30,70]"}
+
+::: {#first-column}
+
+![](img/fish.jpg)
+
+:::
+
+::: {#second-column column.width="70%"}
+
+We often think of dogs as having an amazing sense of smell, but fish and other aquatic animals can smell on orders of magnitude better than your average canine!
+
+Tadpoles and fish likely talk to one another  using chemical senses much more than we realize. My M.Sc. thesis research focused on how aquatic animals communicate dangers such as information about nearby predators to one-another, through the production of so-called 'disturbance cues'.
+
+If you were in danger, would you call upon your friends or family? Our work examined how tadpoles and minnows produce and respond to disturbance cues differently depending on how familiar and how related they are to other individuals.
+
+:::
+
+:::
+
 
 ---
+
+
+
+

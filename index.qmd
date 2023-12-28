@@ -22,7 +22,8 @@ My results suggest that it is a mixed bag for different corals, with an increasi
 
 ---
 
-::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
+::: {.animate__animated .animate__fadeInDown .animate__faster .animate__delay-1s}
+
 ## Research Interests
 
 -   Eco-evolutionary dynamics of natural populations in response to climate change
@@ -38,10 +39,11 @@ If you are interested in collaborating on a project or seeking advice on statist
 
 :::
 
-::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-2s}
----
 
 ## Academic Positions
+
+
+::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-2s}
 
 <div>
 
@@ -57,7 +59,11 @@ Brisbane, Australia\
 
 </div>
 
+:::
+
 ## Education
+
+::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-2s}
 
 <div>
 
