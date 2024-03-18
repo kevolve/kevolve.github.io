@@ -3,48 +3,41 @@ title: "{{< animate fadeIn 'About Me' >}}"
 ---
 
 ::: {.animate__animated .animate__fadeIn .animate__faster}
-
 ::: {layout="[ 30, 70 ]"}
 ::: {#first-column}
 ![](img/headshot.jpg)
 :::
 
 ::: {#second-column column.width="70%"}
-I serendipitously ended up on the path of a marine biologist studying corals of the Great Barrier Reef despite originating from the landlocked prairies of Canada. For the past five years, I have worked on understanding coral population responses to climate change using state-of-the-art eco-evolutionary models of coral thermal tolerance.<br></br>
+Hi! I'm Kevin, a Postdoctoral Research Fellow at the University of Queensland studying the eco-evolutionary dynamics of coral populations along the Great Barrier Reef! For the past five years, I have worked on understanding coral population responses to climate change.\
 
-The overarching question of my PhD was: \
-**Will coral evolution be able to keep pace with climate change?** \
-My results suggest that it is a mixed bag for different corals, with an increasingly pessimistic outlook for coral communities overall if we as humans fail to reduce our carbon emissions in the near future.
+The overarching question of my PhD was:\
+**Will coral evolution be able to keep pace with climate change?**\
+The results suggest that outcomes are likely to vary across the GBR, with an increasingly pessimistic outlook for all coral communities if we fail to reduce our carbon emissions in the near future. The models I am building currently using explicit genetics and size-dependent dynamics share this result!
 :::
 :::
-
 :::
 
----
+------------------------------------------------------------------------
 
 ::: {.animate__animated .animate__fadeInDown .animate__faster .animate__delay-1s}
-
 ## Research Interests
 
--   Eco-evolutionary dynamics of natural populations in response to climate change
--   Mechanistic models of micro-evolutionary change in ***R***
--   Forward genetic simulations of evolution using ***SLiM***
--   Causal inference in statistics
--   Meta-analysis and research synthesis
--   Behavioural ecology and the evolution of animal communication systems
--   Improving diversity, equity, and inclusion (DEI) in science
--   Improving the openness, reliability, and transparency (ORT) of science
+-   **Eco-evolutionary dynamics** of natural populations in response to climate change
+-   **Population projection models** of micro-evolutionary change **in** ***R***
+-   **Forward genetic simulations** of evolution using ***SLiM***
+-   **Causal inference** in statistics
+-   **Meta-analysis** and research synthesis
+-   **Behavioural ecology** and the evolution of animal communication systems
+-   Improving **diversity, equity, and inclusion** (DEI) in science
+-   Improving the **openness, reliability, and transparency** (ORT) of science
 
-If you are interested in collaborating on a project or seeking advice on statistical analysis, feel free to **contact me at: k.bairosnovak(at)uq.edu.au**
-
+If you are interested in collaborating on a project or are seeking advice on statistical analysis, feel free to **contact me at: k.bairosnovak(at)uq.edu.au**
 :::
-
 
 ## Academic Positions
 
-
 ::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-2s}
-
 <div>
 
 <!-- **Quantitative Evolutionary Ecologist** (2024 - present)\ -->
@@ -58,13 +51,11 @@ Post-doc, Cynthia Riginos Lab, The University of Queensland\
 Brisbane, Australia\
 
 </div>
-
 :::
 
 ## Education
 
 ::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-2s}
-
 <div>
 
 **Ph.D. in Marine Biology** (2019 - 2023)\
@@ -80,5 +71,4 @@ University of Manitoba\
 Winnipeg, Canada\
 
 </div>
-
 :::
