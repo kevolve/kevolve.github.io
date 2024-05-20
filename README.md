@@ -1,8 +1,6 @@
 # My personal webpage (under development)
 
-<h3>
-Access my webpage [here!](https://github.com/ecolology)
-</h3>
+Access my webpage [here](https://ecolology.github.io/)!
 
 
 ----
