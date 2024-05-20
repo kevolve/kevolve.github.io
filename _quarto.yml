@@ -5,6 +5,7 @@ project:
 website:
   favicon: img/favicon.png
   title: "Kevin R. Bairos-Novak"
+  site-url: "https://ecolology.github.io"
   navbar:
     left:
       - href: index.qmd

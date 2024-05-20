@@ -1,5 +1,8 @@
 ---
 title: "Research"
+aliases:
+  - kevin-r-bairos-novak.html
+  - home.html
 ---
 
 ## Coral Eco-evolutionary Modelling
