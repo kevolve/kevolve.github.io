@@ -1,5 +1,7 @@
 # Options specified here will apply to all posts in this folder
 
+favicon: logo.png
+
 # freeze computational output
 freeze: true
 
