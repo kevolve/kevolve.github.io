@@ -2,6 +2,7 @@
 title: "{{< animate fadeIn 'About Me' >}}"
 aliases:
   - kevin-r-bairos-novak.html
+  - home.html
 ---
 
 ::: {.animate__animated .animate__fadeIn .animate__faster}
