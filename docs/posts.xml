@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Kevin R. Bairos-Novak</title>
+<link>https://ecolology.github.io/posts.html</link>
+<atom:link href="https://ecolology.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sun, 24 Dec 2023 05:35:10 GMT</lastBuildDate>
+<item>
+  <title>Test blog post</title>
+  <dc:creator>Kevin R. Bairos-Novak</dc:creator>
+  <dc:creator>Kevin R. Bairos-Novak</dc:creator>
+  <link>https://ecolology.github.io/posts/2023-12-23_another-test-post/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><span class="animate__animated animate__bounce animate__delay-0s" style="display: inline-block;animation-duration:1000ms">Some text</span></p>
+<p><span class="animate__animated animate__bounce animate__delay-1s" style="display: inline-block;animation-duration:faster">Some more text</span></p>
+<p>circle-flags:ca game-icons:bagpipes lucide:drum mdi:bike-fast game-icons:coral fluent-emoji-flat:coral fluent-emoji-high-contrast:coral lucide:squirrel fluent-emoji-flat:frog game-icons:tadpole fa-solid:fish noto-v1:fish fxemoji:fish emojione:tropical-fish mdi:bird game-icons:seagull</p>
+<div class="animate__animated animate__fadeIn">
+<p>THIS IS A TEST</p>
+</div>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{r. bairos-novak2023,
+  author = {R. Bairos-Novak, Kevin and R. Bairos-Novak, Kevin},
+  title = {\{\{\textless{} Animate {fadeIn} “{Test} Blog Post” Delay=0s
+    Duration=faster \textgreater\}\}},
+  date = {2023-12-23},
+  url = {https://ecolology.github.io/posts/2023-12-22-my-blog-post/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-r. bairos-novak2023" class="csl-entry quarto-appendix-citeas">
+R. Bairos-Novak, Kevin, and Kevin R. Bairos-Novak. 2023. <span>“{{&lt;
+Animate fadeIn <span>‘Test Blog Post’</span> Delay=0s Duration=faster
+&gt;}}.”</span> December 23, 2023. <a href="https://ecolology.github.io/posts/2023-12-22-my-blog-post/">https://ecolology.github.io/posts/2023-12-22-my-blog-post/</a>.
+</div></div></section></div> ]]></description>
+  <category>starting out</category>
+  <guid>https://ecolology.github.io/posts/2023-12-23_another-test-post/index.html</guid>
+  <pubDate>Sun, 24 Dec 2023 05:35:10 GMT</pubDate>
+</item>
+<item>
+  <title>Template blog post</title>
+  <dc:creator>Kevin R. Bairos-Novak</dc:creator>
+  <dc:creator>Kevin R. Bairos-Novak</dc:creator>
+  <link>https://ecolology.github.io/posts/2023-12-22-my-blog-post/index.html</link>
+  <description><![CDATA[ 
+<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.43.0/min/vs/loader.js"></script>
+<script type="module" id="qwebr-monaco-editor-init">
+
+  // Configure the Monaco Editor's loader
+  require.config({
+    paths: {
+      'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.43.0/min/vs'
+    }
+  });
+</script>
+<script type="module">// Global dictionary to store Monaco Editor instances
+const qwebrEditorInstances = {};
+
+// Function that builds and registers a Monaco Editor instance    
+globalThis.qwebrCreateMonacoEditorInstance = function (
+    initialCode, 
+    qwebrCounter) {
+
+  // Retrieve the previously created document elements
+  let runButton = document.getElementById(`qwebr-button-run-${qwebrCounter}`);
+  let editorDiv = document.getElementById(`qwebr-editor-${qwebrCounter}`);
+  
+  // Load the Monaco Editor and create an instance
+  let editor;
+  require(['vs/editor/editor.main'], function () {
+    editor = monaco.editor.create(editorDiv, {
+      value: initialCode,
+      language: 'r',
+      theme: 'vs-light',
+      automaticLayout: true,           // Works wonderfully with RevealJS
+      scrollBeyondLastLine: false,
+      minimap: {
+        enabled: false
+      },
+      fontSize: '17.5pt',              // Bootstrap is 1 rem
+      renderLineHighlight: "none",     // Disable current line highlighting
+      hideCursorInOverviewRuler: true  // Remove cursor indictor in right hand side scroll bar
+    });
+
+    // Store the official counter ID to be used in keyboard shortcuts
+    editor.__qwebrCounter = qwebrCounter;
+
+    // Store the official div container ID
+    editor.__qwebrEditorId = `qwebr-editor-${qwebrCounter}`;
+
+    // Store the initial code value
+    editor.__qwebrinitialCode = initialCode;
+
+    // Dynamically modify the height of the editor window if new lines are added.
+    let ignoreEvent = false;
+    const updateHeight = () => {
+      const contentHeight = editor.getContentHeight();
+      // We're avoiding a width change
+      //editorDiv.style.width = `${width}px`;
+      editorDiv.style.height = `${contentHeight}px`;
+      try {
+        ignoreEvent = true;
+
+        // The key to resizing is this call
+        editor.layout();
+      } finally {
+        ignoreEvent = false;
+      }
+    };
+
+    // Helper function to check if selected text is empty
+    function isEmptyCodeText(selectedCodeText) {
+      return (selectedCodeText === null || selectedCodeText === undefined || selectedCodeText === "");
+    }
+
+    // Registry of keyboard shortcuts that should be re-added to each editor window
+    // when focus changes.
+    const addWebRKeyboardShortCutCommands = () => {
+      // Add a keydown event listener for Shift+Enter to run all code in cell
+      editor.addCommand(monaco.KeyMod.Shift | monaco.KeyCode.Enter, () => {
+
+        // Retrieve all text inside the editor
+        qwebrExecuteCode(editor.getValue(), editor.__qwebrCounter);
+      });
+
+      // Add a keydown event listener for CMD/Ctrl+Enter to run selected code
+      editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
+
+        // Get the selected text from the editor
+        const selectedText = editor.getModel().getValueInRange(editor.getSelection());
+        // Check if no code is selected
+        if (isEmptyCodeText(selectedText)) {
+          // Obtain the current cursor position
+          let currentPosition = editor.getPosition();
+          // Retrieve the current line content
+          let currentLine = editor.getModel().getLineContent(currentPosition.lineNumber);
+
+          // Propose a new position to move the cursor to
+          let newPosition = new monaco.Position(currentPosition.lineNumber + 1, 1);
+
+          // Check if the new position is beyond the last line of the editor
+          if (newPosition.lineNumber > editor.getModel().getLineCount()) {
+            // Add a new line at the end of the editor
+            editor.executeEdits("addNewLine", [{
+            range: new monaco.Range(newPosition.lineNumber, 1, newPosition.lineNumber, 1),
+            text: "\n", 
+            forceMoveMarkers: true,
+            }]);
+          }
+          
+          // Run the entire line of code.
+          qwebrExecuteCode(currentLine, editor.__qwebrCounter,
+            EvalTypes.Interactive);
+
+          // Move cursor to new position
+          editor.setPosition(newPosition);
+        } else {
+          // Code to run when Ctrl+Enter is pressed with selected code
+          qwebrExecuteCode(selectedText, editor.__qwebrCounter, EvalTypes.Interactive);
+        }
+      });
+    }
+
+    // Register an on focus event handler for when a code cell is selected to update
+    // what keyboard shortcut commands should work.
+    // This is a workaround to fix a regression that happened with multiple
+    // editor windows since Monaco 0.32.0 
+    // https://github.com/microsoft/monaco-editor/issues/2947
+    editor.onDidFocusEditorText(addWebRKeyboardShortCutCommands);
+
+    // Register an on change event for when new code is added to the editor window
+    editor.onDidContentSizeChange(updateHeight);
+
+    // Manually re-update height to account for the content we inserted into the call
+    updateHeight();
+
+    // Store the editor instance in the global dictionary
+    qwebrEditorInstances[editor.__qwebrCounter] = editor;
+
+  });
+
+  // Add a click event listener to the run button
+  runButton.onclick = function () {
+    qwebrExecuteCode(editor.getValue(), editor.__qwebrCounter, EvalTypes.Interactive);
+  };
+
+}</script>
+
+
+
+
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">Section 1</h2>
+<p>This serves as the first section of my blog. Here’s a photo:<br>
+<img src="https://ecolology.github.io/posts/2023-12-22-my-blog-post/piratekevin.jpg" class="preview-image img-fluid" data-alt.text="hello world" size="300" alt="my photo"></p>
+</section>
+<section id="section-2" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="section-2">Section 2</h2>
+<p>This is the second section<sup>1</sup>.</p>
+<p>See <a href="https://github.com/samanthacsik/samanthacsik.github.io/blob/main/posts/2022-10-24-quarto-blogs/index.qmd">this link</a> for how to add a bibliography</p>
+<p><a href="https://quarto.org/docs/authoring/article-layout.html">This link</a> is useful for setting up and customising page content!</p>
+<div class="cell page-columns page-full">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(leaflet)</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'leaflet' was built under R version 4.2.3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">leaflet</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb3-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">addTiles</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add default OpenStreetMap map tiles</span></span>
+<span id="cb3-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">addMarkers</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">lng=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">174.768</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">lat=</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">36.852</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">popup=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"The birthplace of R"</span>)</span></code></pre></div>
+<div class="cell-output-display column-screen">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-d547522299493a87a4c4" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-d547522299493a87a4c4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[-36.852,174.768,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"The birthplace of R",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-36.852,-36.852],"lng":[174.768,174.768]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<hr>
+<p>This is a webr-enabled code cell in a Quarto HTML document.</p>
+<div id="qwebr-insertion-location-1"></div>
+<script type="module">
+// Retrieve the insertion point
+const currentDocumentLocation = document.getElementById("qwebr-insertion-location-1");
+
+// Initalize an interactive element
+const initializedElement =   qwebrCreateInteractiveElement(
+    1
+  );
+
+// Add the interactive element into the document scope
+currentDocumentLocation.appendChild(initializedElement);
+
+// Initialize a Monaco Editor Instance
+qwebrCreateMonacoEditorInstance(
+  `fit = lm(mpg ~ am, data = mtcars)
+summary(fit)`, 
+  1);
+</script>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This is an example footnote!↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{r. bairos-novak2023,
+  author = {R. Bairos-Novak, Kevin and R. Bairos-Novak, Kevin},
+  title = {Template Blog Post},
+  date = {2023-12-23},
+  url = {https://ecolology.github.io/posts/2023-12-22-my-blog-post/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-r. bairos-novak2023" class="csl-entry quarto-appendix-citeas">
+R. Bairos-Novak, Kevin, and Kevin R. Bairos-Novak. 2023. <span>“Template
+Blog Post.”</span> December 23, 2023. <a href="https://ecolology.github.io/posts/2023-12-22-my-blog-post/">https://ecolology.github.io/posts/2023-12-22-my-blog-post/</a>.
+</div></div></section></div> ]]></description>
+  <category>starting out</category>
+  <guid>https://ecolology.github.io/posts/2023-12-22-my-blog-post/index.html</guid>
+  <pubDate>Sun, 24 Dec 2023 03:36:35 GMT</pubDate>
+</item>
+</channel>
+</rss>

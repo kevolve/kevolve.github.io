@@ -5,7 +5,7 @@ aliases:
   - home.html
 ---
 
-## Coral Eco-evolutionary Modelling
+## Coral eco-evolutionary modelling
 
 
 <!-- ::: {layout="[ 30, 70 ]"} -->

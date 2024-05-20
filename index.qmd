@@ -13,7 +13,7 @@ Hi! I'm Kevin, a Postdoctoral Research Fellow at the University of Queensland st
 
 The overarching question of my PhD was:\
 **Will coral evolution be able to keep pace with climate change?**\
-The results suggest that outcomes are likely to vary across the GBR, with an increasingly pessimistic outlook for all coral communities if we fail to reduce our carbon emissions in the near future. The models I am building currently using explicit genetics and size-dependent dynamics share this result!
+The results suggest that outcomes are likely to vary across the GBR, with an increasingly pessimistic outlook for all coral communities if we fail to reduce our carbon emissions in the near future. The models I am building make use of explicit genetics and mimic the size-dependent dynamics of coral populations to estimate future resilience and adaptation to climate change.
 :::
 :::
 :::
@@ -24,9 +24,9 @@ The results suggest that outcomes are likely to vary across the GBR, with an inc
 ## Research Interests
 
 -   **Eco-evolutionary dynamics** of natural populations in response to climate change
--   **Population projection models** of micro-evolutionary change **in** ***R***
+-   **Population projection models** of micro-evolutionary change in ***R***
 -   **Forward genetic simulations** of evolution using ***SLiM***
--   **Causal inference** in statistics
+-   **Causal inference** in statistical analysis
 -   **Meta-analysis** and research synthesis
 -   **Behavioural ecology** and the evolution of animal communication systems
 -   Improving **diversity, equity, and inclusion** (DEI) in science
