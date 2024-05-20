@@ -3,6 +3,7 @@ project:
   output-dir: docs
   
 website:
+  favicon: img/favicon.png
   title: "Kevin R. Bairos-Novak"
   navbar:
     left:

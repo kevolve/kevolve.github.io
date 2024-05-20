@@ -12,7 +12,7 @@ aliases:
 :::
 
 ::: {#second-column column.width="70%"}
-Hi! I'm Kevin, a Postdoctoral Research Fellow at the University of Queensland studying the eco-evolutionary dynamics of coral populations along the Great Barrier Reef! For the past five years, I have worked on understanding coral population responses to climate change.\
+Hi! I'm Kevin, a Postdoctoral Research Fellow at the University of Queensland studying the eco-evolutionary dynamics of coral populations along the Great Barrier Reef. For the past five years, I have worked on understanding coral population responses to climate change.\
 
 The overarching question of my PhD was:\
 **Will coral evolution be able to keep pace with climate change?**\
