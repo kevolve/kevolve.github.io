@@ -7,7 +7,7 @@ title: "{{< animate fadeIn 'About Me' >}}"
 ::: {#first-column}
 ![](img/headshot.jpg)
 :::
-
+ 
 ::: {#second-column column.width="70%"}
 Hi! I'm Kevin, a Postdoctoral Research Fellow at the University of Queensland studying the eco-evolutionary dynamics of coral populations along the Great Barrier Reef. For the past five years, I have worked on understanding coral population responses to climate change.\
 
