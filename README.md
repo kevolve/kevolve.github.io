@@ -1,4 +1,4 @@
-# My personal webpage (under development)
+# My personal website
 
 Access my webpage [here](https://ecolology.github.io/)!
 
