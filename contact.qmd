@@ -1,0 +1,22 @@
+---
+title: "{{< animate fadeIn 'Contact Information' >}}"
+---
+
+::: {.animate__animated .animate__fadeIn .animate__faster style="text-align: center; vertical-align: middle;"}
+::: {layout="[ 30, 70 ]"}
+::: {#first-column}
+![](img/headshot.jpg)
+:::
+
+::: {#second-column column.width="70%" }
+<br>
+<br>
+Thanks for your interest! I'm open to new collaborations and am happy to help where I can.
+
+---------------------------
+
+Email: k.bairosnovak \<a$\tau$\> uq.edu.au\
+Github: https://github.com/ecolology
+:::
+:::
+:::
