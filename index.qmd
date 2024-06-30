@@ -23,7 +23,7 @@ The models I am building make use of explicit genetics and mimic the size-depend
 
 ------------------------------------------------------------------------
 
-::: {.animate__animated .animate__fadeInDown .animate__faster .animate__delay-1s}
+::: {.animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 ## Research Interests
 
 -   **Eco-evolutionary dynamics** of natural populations in response to climate change

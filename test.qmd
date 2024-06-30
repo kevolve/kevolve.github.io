@@ -1,0 +1,15 @@
+---
+title: Simple Lightbox Example
+filters:
+   - lightbox
+lightbox: auto
+---
+
+![A Lovely Image](img/coral.jpg){group="my-gallery"}
+
+![A Lovely Image 2](img/fish.jpg){group="my-gallery"}
+
+![Another Lovely Image 2](img/decoys.jpg){group="my-gallery"}
+
+
+
