@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ecolology.github.io/index.html</loc>
-    <lastmod>2024-06-30T03:25:30.373Z</lastmod>
+    <loc>https://ecolology.github.io/test.html</loc>
+    <lastmod>2024-07-01T12:31:23.906Z</lastmod>
   </url>
   <url>
-    <loc>https://ecolology.github.io/research.html</loc>
-    <lastmod>2024-06-26T04:35:15.934Z</lastmod>
+    <loc>https://ecolology.github.io/art.html</loc>
+    <lastmod>2024-07-01T12:31:21.347Z</lastmod>
   </url>
   <url>
-    <loc>https://ecolology.github.io/posts.html</loc>
-    <lastmod>2024-05-20T09:09:16.793Z</lastmod>
+    <loc>https://ecolology.github.io/posts/2023-12-23_another-test-post/index.html</loc>
+    <lastmod>2024-07-01T12:31:20.404Z</lastmod>
   </url>
   <url>
     <loc>https://ecolology.github.io/contact.html</loc>
-    <lastmod>2024-06-26T04:27:11.663Z</lastmod>
+    <lastmod>2024-07-01T12:31:18.613Z</lastmod>
   </url>
   <url>
-    <loc>https://ecolology.github.io/test.html</loc>
-    <lastmod>2024-06-30T03:32:38.700Z</lastmod>
+    <loc>https://ecolology.github.io/research.html</loc>
+    <lastmod>2024-07-01T12:31:18.176Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecolology.github.io/posts/2023-12-22-my-blog-post/index.html</loc>
+    <lastmod>2024-07-01T12:31:19.767Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecolology.github.io/index.html</loc>
+    <lastmod>2024-07-01T12:31:20.876Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ecolology.github.io/posts.html</loc>
+    <lastmod>2024-07-01T12:31:22.005Z</lastmod>
   </url>
 </urlset>

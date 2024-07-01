@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "webR in Quarto HTML Documents",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nA Lovely Image\n\n\n\n\n\nA Lovely Image 2\n\n\n\n\n\nAnother Lovely Image 2"
+  },
+  {
+    "objectID": "art.html",
+    "href": "art.html",
+    "title": "Pour Painting",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/2023-12-23_another-test-post/index.html",
+    "href": "posts/2023-12-23_another-test-post/index.html",
+    "title": "Test blog post",
+    "section": "",
+    "text": "Some text\nSome more text\ncircle-flags:ca game-icons:bagpipes lucide:drum mdi:bike-fast game-icons:coral fluent-emoji-flat:coral fluent-emoji-high-contrast:coral lucide:squirrel fluent-emoji-flat:frog game-icons:tadpole fa-solid:fish noto-v1:fish fxemoji:fish emojione:tropical-fish mdi:bird game-icons:seagull\n\nTHIS IS A TEST\n\n\n\n\nCitationBibTeX citation:@online{r. bairos-novak2024,\n  author = {R. Bairos-Novak, Kevin and R. Bairos-Novak, Kevin},\n  title = {\\{\\{\\textless{} Animate {fadeIn} “{Test} Blog Post” Delay=0s\n    Duration=faster \\textgreater\\}\\}},\n  date = {2024-07-01},\n  url = {https://ecolology.github.io/posts/2023-12-22-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nR. Bairos-Novak, Kevin, and Kevin R. Bairos-Novak. 2024. “{{&lt;\nAnimate fadeIn ‘Test Blog Post’ Delay=0s Duration=faster\n&gt;}}.” July 1, 2024. https://ecolology.github.io/posts/2023-12-22-my-blog-post/."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Information",
+    "section": "",
+    "text": "Thanks for your interest! I’m open to new collaborations and am happy to help where I can.\n\nEmail: k.bairosnovak(a\\(\\tau\\))uq.edu.au\nGithub: https://github.com/ecolology"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -14,46 +42,11 @@
     "text": "Coral reefs are home to 25% of all marine biodiversity, yet cover only 0.07% of the Earth’s surface. Despite their importance, reefs around the world have experienced unprecedented levels of thermal heat stress in the past decade due to man-made climate change, thus threatening their long-term survival. The central question is thus: Will corals of the Great Barrier Reef evolve fast enough to keep pace with climate change?\nUsing explicit models of population genetics to represent coral evolution with realistic size-dependent demography, my aim is to understand the likely population evolutionary trajectories of corals in response to the increasing temperatures predicted by climate change. Understanding rates of natural adaptation vs. artificially enhanced coral adaptationis key to conserving scleractinian (hard) corals in an era of more frequent and intense mass coral bleaching events.\nPreliminary model results suggest that it is a mixed bag for different corals, with an increasingly pessimistic outlook for coral communities overall if we as humans fail to reduce our carbon emissions in the near future."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hi! I’m Kevin, a Postdoctoral Research Fellow at the University of Queensland studying the eco-evolutionary dynamics of coral populations along the Great Barrier Reef. For the past five years, I have worked on understanding coral population responses to climate change. The overarching question of my research is:\nWill coral evolution be able to keep pace with climate change?\n\nMy results suggest that outcomes are likely to vary across the GBR, with an increasingly pessimistic outlook for all coral communities if we fail to reduce our carbon emissions in the near future.\n\nThe models I am building make use of explicit genetics and mimic the size-dependent dynamics of coral populations to estimate future resilience and adaptation to climate change."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\n\nPh.D. in Marine Biology (2019 - 2023)\nJames Cook University\nTownsville, Australia\n\nM.Sc. in Biology (2016 - 2018)\nUniversity of Saskatchewan\nSaskatoon, Canada\n\nB.Sc.(Hons.) in Biology (2010 - 2015)\nUniversity of Manitoba\nWinnipeg, Canada"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "About Me",
-    "section": "Experience",
-    "text": "Experience\n\nQuantitative Evolutionary Ecologist (2024 - present)\nDiana Fisher Lab, The University of Queensland\n\nCoral Eco-evolutionary Modeller (2023 - 2024)\nRiginos Lab, The University of Queensland"
-  },
-  {
-    "objectID": "index.html#academic-positions",
-    "href": "index.html#academic-positions",
-    "title": "About Me",
-    "section": "Academic Positions",
-    "text": "Academic Positions\n\n\n\n\n\nCoral Eco-evolutionary Modeller (2023 - 2024)\nPost-doc, Cynthia Riginos Lab, The University of Queensland\nBrisbane, Australia"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "My Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTest blog post\n\n\n\nstarting out\n\n\n\nThis is a test blog post.\n\n\n\nKevin R. Bairos-Novak, Kevin R. Bairos-Novak\n\n\nDec 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTemplate blog post\n\n\n\nstarting out\n\n\n\nThis is a test blog post.\n\n\n\nKevin R. Bairos-Novak, Kevin R. Bairos-Novak\n\n\nDec 24, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "About Me",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nEco-evolutionary dynamics of natural populations in response to climate change\nPopulation projection models of micro-evolutionary change in R\nForward genetic simulations of evolution using SLiM\nCausal inference in statistical analysis\nMeta-analysis and research synthesis\nBehavioural ecology and the evolution of animal communication systems\nImproving diversity, equity, and inclusion (DEI) in science\nImproving the openness, reliability, and transparency (ORT) of science\n\nIf you are interested in collaborating on a project or are seeking advice on statistical analysis, feel free to contact me at: k.bairosnovak(at)uq.edu.au"
+    "objectID": "research.html#disturbance-cues-in-tadpoles-and-minnows",
+    "href": "research.html#disturbance-cues-in-tadpoles-and-minnows",
+    "title": "Research",
+    "section": "Disturbance cues in tadpoles and minnows",
+    "text": "Disturbance cues in tadpoles and minnows\n\n\n\n\n\n\nWe often think of dogs as having an amazing sense of smell, but fish and other aquatic animals can smell on orders of magnitude better than your average canine!\nTadpoles and fish likely talk to one another using chemical senses much more than we realize. My M.Sc. thesis research focused on how aquatic animals communicate dangers such as information about nearby predators to one-another, through the production of so-called ‘disturbance cues’.\nIf you were in danger, would you call upon your friends or family? Our work examined how tadpoles and minnows produce and respond to disturbance cues differently depending on how familiar and how related they are to other individuals."
   },
   {
     "objectID": "posts/2023-12-22-my-blog-post/index.html",
@@ -84,59 +77,38 @@
     "text": "Footnotes\n\n\nThis is an example footnote!↩︎"
   },
   {
-    "objectID": "posts/2023-12-23_another-test-post/index.html",
-    "href": "posts/2023-12-23_another-test-post/index.html",
-    "title": "Test blog post",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
     "section": "",
-    "text": "Some text\nSome more text\ncircle-flags:ca game-icons:bagpipes lucide:drum mdi:bike-fast game-icons:coral fluent-emoji-flat:coral fluent-emoji-high-contrast:coral lucide:squirrel fluent-emoji-flat:frog game-icons:tadpole fa-solid:fish noto-v1:fish fxemoji:fish emojione:tropical-fish mdi:bird game-icons:seagull\n\nTHIS IS A TEST\n\n\n\n\nCitationBibTeX citation:@online{r. bairos-novak2023,\n  author = {R. Bairos-Novak, Kevin and R. Bairos-Novak, Kevin},\n  title = {\\{\\{\\textless{} Animate {fadeIn} “{Test} Blog Post” Delay=0s\n    Duration=faster \\textgreater\\}\\}},\n  date = {2023-12-23},\n  url = {https://ecolology.github.io/posts/2023-12-22-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nR. Bairos-Novak, Kevin, and Kevin R. Bairos-Novak. 2023. “{{&lt;\nAnimate fadeIn ‘Test Blog Post’ Delay=0s Duration=faster\n&gt;}}.” December 23, 2023. https://ecolology.github.io/posts/2023-12-22-my-blog-post/."
+    "text": "Hi! I’m Kevin, a Postdoctoral Research Fellow at the University of Queensland studying the eco-evolutionary dynamics of coral populations along the Great Barrier Reef. For the past five years, I have worked on understanding coral population responses to climate change. The overarching question of my research is:\nWill coral evolution be able to keep pace with climate change?\n\nMy results suggest that outcomes are likely to vary across the GBR, with an increasingly pessimistic outlook for all coral communities if we fail to reduce our carbon emissions in the near future.\n\nThe models I am building make use of explicit genetics and mimic the size-dependent dynamics of coral populations to estimate future resilience and adaptation to climate change."
   },
   {
-    "objectID": "art.html",
-    "href": "art.html",
-    "title": "Pour Painting",
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "About Me",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nEco-evolutionary dynamics of natural populations in response to climate change\nPopulation projection models of micro-evolutionary change in R\nForward genetic simulations of evolution using SLiM\nCausal inference in statistical analysis\nMeta-analysis and research synthesis\nBehavioural ecology and the evolution of animal communication systems\nImproving diversity, equity, and inclusion (DEI) in science\nImproving the openness, reliability, and transparency (ORT) of science\n\nIf you are interested in collaborating on a project or are seeking advice on statistical analysis, feel free to contact me at: k.bairosnovak(at)uq.edu.au"
+  },
+  {
+    "objectID": "index.html#academic-positions",
+    "href": "index.html#academic-positions",
+    "title": "About Me",
+    "section": "Academic Positions",
+    "text": "Academic Positions\n\n\n\n\n\nCoral Eco-evolutionary Modeller (2023 - 2024)\nPost-doc, Cynthia Riginos Lab, The University of Queensland\nBrisbane, Australia"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\n\nPh.D. in Marine Biology (2019 - 2023)\nJames Cook University\nTownsville, Australia\n\nM.Sc. in Biology (2016 - 2018)\nUniversity of Saskatchewan\nSaskatoon, Canada\n\nB.Sc.(Hons.) in Biology (2010 - 2015)\nUniversity of Manitoba\nWinnipeg, Canada"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "research.html#disturbance-cues-in-tadpoles-and-minnows",
-    "href": "research.html#disturbance-cues-in-tadpoles-and-minnows",
-    "title": "Research",
-    "section": "Disturbance cues in tadpoles and minnows",
-    "text": "Disturbance cues in tadpoles and minnows\n\n\n\n\n\n\nWe often think of dogs as having an amazing sense of smell, but fish and other aquatic animals can smell on orders of magnitude better than your average canine!\nTadpoles and fish likely talk to one another using chemical senses much more than we realize. My M.Sc. thesis research focused on how aquatic animals communicate dangers such as information about nearby predators to one-another, through the production of so-called ‘disturbance cues’.\nIf you were in danger, would you call upon your friends or family? Our work examined how tadpoles and minnows produce and respond to disturbance cues differently depending on how familiar and how related they are to other individuals."
-  },
-  {
-    "objectID": "research.html#disturbance-cues-in-tadpoles-and-minnows-1",
-    "href": "research.html#disturbance-cues-in-tadpoles-and-minnows-1",
-    "title": "Research",
-    "section": "Disturbance cues in tadpoles and minnows",
-    "text": "Disturbance cues in tadpoles and minnows\n\n\n\n\n\n\nWe often think of dogs as having an amazing sense of smell, but fish and other aquatic animals can smell on orders of magnitude better than your average canine!\nTadpoles and fish likely talk to one another using chemical senses much more than we realize. My M.Sc. thesis research focused on how aquatic animals communicate dangers such as information about nearby predators to one-another, through the production of so-called ‘disturbance cues’.\nIf you were in danger, would you call upon your friends or family? Our work examined how tadpoles and minnows produce and respond to disturbance cues differently depending on how familiar and how related they are to other individuals."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Information",
-    "section": "",
-    "text": "Thanks for your interest! I’m open to new collaborations and am happy to help where I can.\n\nEmail: k.bairosnovak(a\\(\\tau\\))uq.edu.au\nGithub: https://github.com/ecolology"
-  },
-  {
-    "objectID": "contact.html#thanks-for-your-interest-in-contacting-me-im-open-to-new-collaborations-and-am-happy-to-help-where-i-can.",
-    "href": "contact.html#thanks-for-your-interest-in-contacting-me-im-open-to-new-collaborations-and-am-happy-to-help-where-i-can.",
-    "title": "Contact Information",
-    "section": "",
-    "text": "Email: k.bairosnovak &lt;a\\(\\tau\\)&gt; uq.edu.au\nGithub: https://github.com/ecolology"
-  },
-  {
-    "objectID": "contact.html#im-open-to-new-collaborations-and-am-happy-to-help-where-i-can.",
-    "href": "contact.html#im-open-to-new-collaborations-and-am-happy-to-help-where-i-can.",
-    "title": "Contact Information",
-    "section": "",
-    "text": "Email: k.bairosnovak &lt;a\\(\\tau\\)&gt; uq.edu.au\nGithub: https://github.com/ecolology"
-  },
-  {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Simple Lightbox Example",
-    "section": "",
-    "text": "A Lovely Image\n\n\n\n\n\nA Lovely Image 2\n\n\n\n\n\nAnother Lovely Image 2"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTemplate blog post\n\n\n\nstarting out\n\n\n\nThis is a test blog post.\n\n\n\nKevin R. Bairos-Novak, Kevin R. Bairos-Novak\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTest blog post\n\n\n\nstarting out\n\n\n\nThis is a test blog post.\n\n\n\nKevin R. Bairos-Novak, Kevin R. Bairos-Novak\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
