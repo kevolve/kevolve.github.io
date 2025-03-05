@@ -23,15 +23,12 @@ website:
       #   text: Pour paintings
         # text: "{{< animate fadeInDown 'Paintings' delay=3s >}}" # add your posts.qmd file to your navbar!
     right:
+      - text: "{{< iconify fa6-brands square-bluesky >}}"
+        href: "https://bsky.app/profile/ecolology.bsky.social"
       - text: "{{< iconify fa6-brands researchgate >}}"
         href: "https://www.researchgate.net/profile/Kevin-Bairos-Novak/"
-      # - icon: twitter
-      #   href: "https://twitter.com/"
-      
-      - icon: "{{< iconify fa6-brands github >}}"
-        href: "https://github.com/ecolology/kevin-r-bairos-novak"
-      # - text: "{{< iconify fa6-brands linkedin >}}"
-      #   href: "https://www.linkedin.com/in/mickaelcanouil"
+      - text: "{{< iconify fa6-brands square-github >}}"
+        href: "https://github.com/kevolve"
   page-footer:
     left: "&copy; Kevin R. Bairos-Novak, 2024"
 
